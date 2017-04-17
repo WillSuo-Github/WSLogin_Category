@@ -13,7 +13,7 @@
 		5432FBF61EA4AD6000079D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5432FBF41EA4AD6000079D82 /* Main.storyboard */; };
 		5432FBF81EA4AD6000079D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5432FBF71EA4AD6000079D82 /* Assets.xcassets */; };
 		5432FBFB1EA4AD6000079D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5432FBF91EA4AD6000079D82 /* LaunchScreen.storyboard */; };
-		5432FC051EA4AE4100079D82 /* WSLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432FC041EA4AE4100079D82 /* WSLogin.m */; };
+		5432FC081EA4B0DC00079D82 /* CTMediator+WSLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432FC071EA4B0DC00079D82 /* CTMediator+WSLogin.m */; };
 		F4425DE40A868F8A171A46AB /* libPods-WSLogin_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AD085F8A14EC3CCA57F8C4 /* libPods-WSLogin_Category.a */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,8 @@
 		5432FBF71EA4AD6000079D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5432FBFA1EA4AD6000079D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5432FBFC1EA4AD6000079D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5432FC031EA4AE4100079D82 /* WSLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLogin.h; sourceTree = "<group>"; };
-		5432FC041EA4AE4100079D82 /* WSLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLogin.m; sourceTree = "<group>"; };
+		5432FC061EA4B0DC00079D82 /* CTMediator+WSLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+WSLogin.h"; sourceTree = "<group>"; };
+		5432FC071EA4B0DC00079D82 /* CTMediator+WSLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+WSLogin.m"; sourceTree = "<group>"; };
 		84C65B03AFD987162D4A652F /* Pods-WSLogin_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSLogin_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSLogin_Category/Pods-WSLogin_Category.debug.xcconfig"; sourceTree = "<group>"; };
 		A1AD085F8A14EC3CCA57F8C4 /* libPods-WSLogin_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WSLogin_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0E00DD911A238483996ECC /* Pods-WSLogin_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSLogin_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSLogin_Category/Pods-WSLogin_Category.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 		5432FC021EA4AE2400079D82 /* WSLogin_Category */ = {
 			isa = PBXGroup;
 			children = (
-				5432FC031EA4AE4100079D82 /* WSLogin.h */,
-				5432FC041EA4AE4100079D82 /* WSLogin.m */,
+				5432FC061EA4B0DC00079D82 /* CTMediator+WSLogin.h */,
+				5432FC071EA4B0DC00079D82 /* CTMediator+WSLogin.m */,
 			);
 			name = WSLogin_Category;
 			path = WSLogin_Category/WSLogin_Category;
@@ -240,9 +240,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5432FBF31EA4AD6000079D82 /* ViewController.m in Sources */,
+				5432FC081EA4B0DC00079D82 /* CTMediator+WSLogin.m in Sources */,
 				5432FBF01EA4AD6000079D82 /* AppDelegate.m in Sources */,
 				5432FBED1EA4AD6000079D82 /* main.m in Sources */,
-				5432FC051EA4AE4100079D82 /* WSLogin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
