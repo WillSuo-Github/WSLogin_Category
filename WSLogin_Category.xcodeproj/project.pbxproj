@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5432FBED1EA4AD6000079D82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432FBEC1EA4AD6000079D82 /* main.m */; };
+		5432FBF01EA4AD6000079D82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432FBEF1EA4AD6000079D82 /* AppDelegate.m */; };
+		5432FBF31EA4AD6000079D82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432FBF21EA4AD6000079D82 /* ViewController.m */; };
+		5432FBF61EA4AD6000079D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5432FBF41EA4AD6000079D82 /* Main.storyboard */; };
+		5432FBF81EA4AD6000079D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5432FBF71EA4AD6000079D82 /* Assets.xcassets */; };
+		5432FBFB1EA4AD6000079D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5432FBF91EA4AD6000079D82 /* LaunchScreen.storyboard */; };
+		5432FC051EA4AE4100079D82 /* WSLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432FC041EA4AE4100079D82 /* WSLogin.m */; };
+		F4425DE40A868F8A171A46AB /* libPods-WSLogin_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AD085F8A14EC3CCA57F8C4 /* libPods-WSLogin_Category.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5432FBE81EA4AD6000079D82 /* WSLogin_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSLogin_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5432FBEC1EA4AD6000079D82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5432FBEE1EA4AD6000079D82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5432FBEF1EA4AD6000079D82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5432FBF11EA4AD6000079D82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5432FBF21EA4AD6000079D82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5432FBF51EA4AD6000079D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5432FBF71EA4AD6000079D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5432FBFA1EA4AD6000079D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5432FBFC1EA4AD6000079D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5432FC031EA4AE4100079D82 /* WSLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLogin.h; sourceTree = "<group>"; };
+		5432FC041EA4AE4100079D82 /* WSLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLogin.m; sourceTree = "<group>"; };
+		84C65B03AFD987162D4A652F /* Pods-WSLogin_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSLogin_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSLogin_Category/Pods-WSLogin_Category.debug.xcconfig"; sourceTree = "<group>"; };
+		A1AD085F8A14EC3CCA57F8C4 /* libPods-WSLogin_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WSLogin_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0E00DD911A238483996ECC /* Pods-WSLogin_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSLogin_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSLogin_Category/Pods-WSLogin_Category.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5432FBE51EA4AD6000079D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4425DE40A868F8A171A46AB /* libPods-WSLogin_Category.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5432FBDF1EA4AD6000079D82 = {
+			isa = PBXGroup;
+			children = (
+				5432FBEA1EA4AD6000079D82 /* WSLogin_Category */,
+				5432FBE91EA4AD6000079D82 /* Products */,
+				C7A72269360982CAB0B2AFF5 /* Pods */,
+				6D0FE9C8D1A29D7A3CAFD575 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5432FBE91EA4AD6000079D82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5432FBE81EA4AD6000079D82 /* WSLogin_Category.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5432FBEA1EA4AD6000079D82 /* WSLogin_Category */ = {
+			isa = PBXGroup;
+			children = (
+				5432FC021EA4AE2400079D82 /* WSLogin_Category */,
+				5432FBEE1EA4AD6000079D82 /* AppDelegate.h */,
+				5432FBEF1EA4AD6000079D82 /* AppDelegate.m */,
+				5432FBF11EA4AD6000079D82 /* ViewController.h */,
+				5432FBF21EA4AD6000079D82 /* ViewController.m */,
+				5432FBF41EA4AD6000079D82 /* Main.storyboard */,
+				5432FBF71EA4AD6000079D82 /* Assets.xcassets */,
+				5432FBF91EA4AD6000079D82 /* LaunchScreen.storyboard */,
+				5432FBFC1EA4AD6000079D82 /* Info.plist */,
+				5432FBEB1EA4AD6000079D82 /* Supporting Files */,
+			);
+			path = WSLogin_Category;
+			sourceTree = "<group>";
+		};
+		5432FBEB1EA4AD6000079D82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5432FBEC1EA4AD6000079D82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5432FC021EA4AE2400079D82 /* WSLogin_Category */ = {
+			isa = PBXGroup;
+			children = (
+				5432FC031EA4AE4100079D82 /* WSLogin.h */,
+				5432FC041EA4AE4100079D82 /* WSLogin.m */,
+			);
+			name = WSLogin_Category;
+			path = WSLogin_Category/WSLogin_Category;
+			sourceTree = "<group>";
+		};
+		6D0FE9C8D1A29D7A3CAFD575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1AD085F8A14EC3CCA57F8C4 /* libPods-WSLogin_Category.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7A72269360982CAB0B2AFF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84C65B03AFD987162D4A652F /* Pods-WSLogin_Category.debug.xcconfig */,
+				EE0E00DD911A238483996ECC /* Pods-WSLogin_Category.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5432FBE71EA4AD6000079D82 /* WSLogin_Category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5432FBFF1EA4AD6000079D82 /* Build configuration list for PBXNativeTarget "WSLogin_Category" */;
+			buildPhases = (
+				E74AB11D6A8F310A8E796BD5 /* [CP] Check Pods Manifest.lock */,
+				5432FBE41EA4AD6000079D82 /* Sources */,
+				5432FBE51EA4AD6000079D82 /* Frameworks */,
+				5432FBE61EA4AD6000079D82 /* Resources */,
+				40653A3D91EDE7EB4333074E /* [CP] Embed Pods Frameworks */,
+				204BD88F7AD891489488587B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSLogin_Category;
+			productName = WSLogin_Category;
+			productReference = 5432FBE81EA4AD6000079D82 /* WSLogin_Category.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5432FBE01EA4AD6000079D82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = WS;
+				TargetAttributes = {
+					5432FBE71EA4AD6000079D82 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5432FBE31EA4AD6000079D82 /* Build configuration list for PBXProject "WSLogin_Category" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5432FBDF1EA4AD6000079D82;
+			productRefGroup = 5432FBE91EA4AD6000079D82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5432FBE71EA4AD6000079D82 /* WSLogin_Category */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5432FBE61EA4AD6000079D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5432FBFB1EA4AD6000079D82 /* LaunchScreen.storyboard in Resources */,
+				5432FBF81EA4AD6000079D82 /* Assets.xcassets in Resources */,
+				5432FBF61EA4AD6000079D82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		204BD88F7AD891489488587B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSLogin_Category/Pods-WSLogin_Category-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40653A3D91EDE7EB4333074E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSLogin_Category/Pods-WSLogin_Category-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74AB11D6A8F310A8E796BD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5432FBE41EA4AD6000079D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5432FBF31EA4AD6000079D82 /* ViewController.m in Sources */,
+				5432FBF01EA4AD6000079D82 /* AppDelegate.m in Sources */,
+				5432FBED1EA4AD6000079D82 /* main.m in Sources */,
+				5432FC051EA4AE4100079D82 /* WSLogin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5432FBF41EA4AD6000079D82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5432FBF51EA4AD6000079D82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5432FBF91EA4AD6000079D82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5432FBFA1EA4AD6000079D82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5432FBFD1EA4AD6000079D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5432FBFE1EA4AD6000079D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5432FC001EA4AD6000079D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C65B03AFD987162D4A652F /* Pods-WSLogin_Category.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSLogin_Category/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WS.WSLogin-Category";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5432FC011EA4AD6000079D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0E00DD911A238483996ECC /* Pods-WSLogin_Category.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSLogin_Category/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WS.WSLogin-Category";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5432FBE31EA4AD6000079D82 /* Build configuration list for PBXProject "WSLogin_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5432FBFD1EA4AD6000079D82 /* Debug */,
+				5432FBFE1EA4AD6000079D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5432FBFF1EA4AD6000079D82 /* Build configuration list for PBXNativeTarget "WSLogin_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5432FC001EA4AD6000079D82 /* Debug */,
+				5432FC011EA4AD6000079D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5432FBE01EA4AD6000079D82 /* Project object */;
+}
